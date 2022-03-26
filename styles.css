@@ -29,7 +29,7 @@ color: blue;
 
  .ava {
 width: 200px;
-
+/*height: max-content;*/
 border-radius: 15px;
 box-shadow: 10px 10px 10px rgba(67, 68, 68, 0.2);;
  }
@@ -139,7 +139,7 @@ color: #86898f;
     margin-right: 0;
   }
 
-  @media (max-width 600px) {
+  @media (max-width: 600px) {
     .form-row {
           display: block;
     }
@@ -156,7 +156,7 @@ font-size: 14px;
 color: #86898f;
   }
 
-.form-group input, 
+  .form-group input, 
 .form-group textarea {
   width: 100%;
   box-sizing: border-box;
